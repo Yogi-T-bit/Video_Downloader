@@ -71,7 +71,7 @@ The script will download each video from the links in your text file and save th
 
 When all files have been downloaded, it will display a message box saying "All files have been downloaded!" and play a sound.
 
-![img.png](message_box.png)
+![img](https://user-images.githubusercontent.com/81467919/226393455-6e2d6c04-5cd3-410a-a605-d09cc6ec4f9e.png)
 
 ## License
 
