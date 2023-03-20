@@ -4,14 +4,14 @@ import ctypes  # import the ctypes module for displaying a message box
 import winsound  # import the winsound module for playing a sound
 
 # Replace this with the path to your text file
-text_file = r"C:\Users\yogev\PycharmProjects\video_downloader\links.txt"
+text_file = r"C:\_________________\video_downloader\links.txt"
 
 # Read the links from the text file and split them into a list
 with open(text_file) as f:
     links = f.read().splitlines()
 
 # Create the directory if it doesn't exist
-directory = r"D:\OneDrive - ac.sce.ac.il\שולחן העבודה"
+directory = r"D:\___________________"
 subdirectory = os.path.join(directory, "Name of the course- Compilation lectures")
 if not os.path.exists(subdirectory):
     os.makedirs(subdirectory)
